@@ -1,0 +1,65 @@
+/* Navbar */
+.navbar {
+    background-color: #350472d7;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    color: #033369;
+  }
+  
+    /* Hero Section */
+#hero {
+  padding: 120px 0;
+  background-image: url('https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80'); background-image: -webkit-image-set(1);
+  background-size: cover;
+  background-position: center;
+  color: #099391;
+  border-image-width: 600px;
+}
+
+img{
+   max-width: 80%;
+}
+  
+  
+  /* About Section */
+  #about {
+    background-color: #0bd5e0;
+    padding: 120px 0;
+  }
+  
+  /* Services Section */
+  #services {
+    padding: 120px 0;
+    background-color:#045e65
+    
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 100px 0;
+    color:#1d0be0
+  
+  }
+  
+  #portfolio img {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    color: #057276;
+    padding: 100px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #4c097c;
+    color: #05a38c;
+    padding: 20px 0;
+  }
+  

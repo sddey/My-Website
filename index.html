@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="website desing-2.css">My Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="bg-primary text-white text-center py-5">
+      <section id="hero" style="background-image: url('https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80'); background-size: cover;
+
+        <div class = "container">
+          <h1>Welcome to Colmar Academy</h1>
+          <p>This is the official website for Colmar Academy.</p>
+        </div>
+      </section>
+   </section>
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2>About</h2>
+        <p>"Welcome to our academy, where knowledge meets inspiration and dreams become achievements."</p>
+      </div>
+    </section>
+
+    <section id="services" class="bg-light py-5">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Service 1</h3>
+            <p><strong>Classes:</strong> Our academy offers comprehensive coding classes for all skill levels, providing a solid
+              foundation in programming languages such as Python, Java, and JavaScript.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Service 2</h3>
+            <p><strong>Web Development Workshops:</strong> Join our interactive web development workshops and master the art of creating
+              stunning websites using HTML, CSS, and Bootstrap, along with essential skills in responsive design and
+              user experience.</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Service 3</h3>
+            <p><strong>Technical Career Guidance:</strong> Our experienced mentors provide personalized guidance and support to help you
+              navigate the vast field of technology, assisting you in making informed decisions and shaping a successful
+              career path in the ever-evolving tech industry.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="https://media.istockphoto.com/id/1363276509/photo/teacher-giving-computer-science-lecture-to-diverse-multiethnic-group-of-female-and-male.webp?b=1&s=170667a&w=0&k=20&c=MEf-p6PoemvTnsK5_qu940BMMu3vJf_ElurJQ5jqcuQ=" alt="Image 1" class="img-fluid">
+          </div>
+          <div class="col-md-4">
+            <img src="https://media.istockphoto.com/id/1430393066/photo/creative-startup-and-team-webinar-on-laptop-for-professional-internet-communication-in-office.jpg?b=1&s=170667a&w=0&k=20&c=ZFARMVi3O6BgLuzkBlsUDEx09zILGmP2gh9aSNJJoBk=" alt="Image 2" class="img-fluid">
+          </div>
+          <div class="col-md-4">
+            <img src="https://media.istockphoto.com/id/1141465434/photo/attending-a-conference-to-develop-their-careers.jpg?b=1&s=170667a&w=0&k=20&c=C_wE3DPjPBFY4VF5my70djQV18ZCcqT8Nrtma3dyl-4=" alt="Image 3" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light py-5">
+      <div class="container">
+        <h2>Contact</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="User Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="email id">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form-control" placeholder="Happy coding"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p>&copy; 2023 Colmar Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
